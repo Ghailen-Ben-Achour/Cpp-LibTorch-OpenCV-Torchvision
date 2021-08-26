@@ -1,2 +1,2 @@
 # C-LibTorch-OpenCV-Torchvision
-deep learning on c++ tutorial
+This is a tutorial on how to set up a C++.
