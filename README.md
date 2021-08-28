@@ -16,4 +16,4 @@ CUDA Deep Neural Network library (cuDNN) should then be downloaded using this [l
 ## LibTorch
 Install libTorch (C++ DISTRIBUTIONS OF PYTORCH) [here](https://pytorch.org/). Select the adequate OS, C++ language as well as the CUDA version. The image below shows the LibTorch used is this project.
 
-![Image](https://github.com/Ghailen-Ben-Achour/Cpp-LibTorch-OpenCV-Torchvision/tree/main/images/libtorch.png)
+![Image](https://github.com/Ghailen-Ben-Achour/Cpp-LibTorch-OpenCV-Torchvision/blob/main/images/libtorch.png)
