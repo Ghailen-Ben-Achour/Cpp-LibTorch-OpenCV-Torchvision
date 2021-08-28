@@ -11,3 +11,6 @@ nvidia-smi
 ```
 
 CUDA Deep Neural Network library (cuDNN) should then be downloaded using this [link](https://developer.nvidia.com/cudnn).
+
+------
+## LibTorch
