@@ -18,8 +18,10 @@ Install libTorch (C++ DISTRIBUTIONS OF PYTORCH) [here](https://pytorch.org/). Se
 
 ![Image](https://github.com/Ghailen-Ben-Achour/Cpp-LibTorch-OpenCV-Torchvision/blob/main/images/libtorch.png)
 
-To test Libtorch with GPU enabled access the ```gpu``` directory and run the following command.
+To test Libtorch with GPU enabled access the ```gpu``` directory. First, change the ```CMAKE_PREFIX_PATH``` and run the following command.
 ```bash
 mkdir build && cd build
-
+cmake ..
+make
+./torchtest
 ```
