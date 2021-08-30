@@ -27,4 +27,5 @@ make
 ```
 ------
 ## OpenCV
+To install C++ OpenCV on Linux you can follow this [link](https://docs.opencv.org/4.5.0/d7/d9f/tutorial_linux_install.html).
 
