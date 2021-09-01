@@ -25,6 +25,7 @@ cmake ..
 make
 ./torchtest
 ```
+The program should return a Cuda tensor.
 ------
 ## OpenCV
 To install C++ OpenCV on Linux you can follow this [link](https://docs.opencv.org/4.5.0/d7/d9f/tutorial_linux_install.html). To test OpenCV installation you can access to ```opencv``` folder. First, edit the ```CMakeLists.txt``` file and change the ```CMAKE_PREFIX_PATH``` to your Libtorch installation path. ```OPENCV_EXTRA_MODULES_PATH``` should also be changed to your opencv installation directory. You can then run the following commands.
@@ -34,4 +35,4 @@ cmake ..
 make
 ./main
 ```
-
+The program should be able to read the ```.mp4``` video.
