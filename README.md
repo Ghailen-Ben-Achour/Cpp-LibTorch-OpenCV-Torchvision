@@ -40,4 +40,4 @@ The program should be able to read the ```.mp4``` video.
 
 ------
 ## Torchvision
-To install ```torchvision``` you need to clone [this](https://github.com/pytorch/vision) repository.
+To install ```torchvision``` you need to clone [this](https://github.com/pytorch/vision) repository and follow the C++ API instructions.
