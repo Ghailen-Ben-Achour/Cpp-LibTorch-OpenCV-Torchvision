@@ -40,4 +40,4 @@ The program should be able to read the ```.mp4``` video.
 
 ------
 ## Torchvision
-To install ```torchvision``` you need to clone [this](https://github.com/pytorch/vision) repository and follow the C++ API instructions.
+To install ```torchvision``` you need to clone [this](https://github.com/pytorch/vision) repository and follow the C++ API instructions. In ```torchvision``` folder you can find a simple project in which we load a built in resnet18 architecture.
