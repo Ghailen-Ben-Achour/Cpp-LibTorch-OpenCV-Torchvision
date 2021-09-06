@@ -48,3 +48,5 @@ cmake ..
 make
 ./torch-demo
 ```
+
+You should get two outputs
