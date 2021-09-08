@@ -49,4 +49,5 @@ make
 ./torch-demo
 ```
 
+
 You should get two outputs on CPU & GPU.
