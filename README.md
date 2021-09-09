@@ -49,5 +49,7 @@ make
 ./torch-demo
 ```
 
-
 You should get two outputs on CPU & GPU.
+
+------
+## Torch::Tensor to cv::MAT
