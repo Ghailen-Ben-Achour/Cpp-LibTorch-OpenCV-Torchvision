@@ -55,4 +55,5 @@ You should get two outputs on CPU & GPU.
 ## Torch::Tensor to cv::MAT
 Two transformations are crucial when working with neural networks:
 1.	Tensor to matrix
+	i.	Use case: convert network tensor output to a Matrix and visualize it using OpenCV.
 2.	Matrix to tensor
