@@ -58,3 +58,5 @@ Two transformations are crucial when working with neural networks:
 	1.	Use case: convert network tensor output to a Matrix and visualize it using OpenCV.
 2.	Matrix to tensor
 	1.	Use case: Read an input image with OpenCV, convert it to a tensor and feed it to a neural network.
+
+The project inside ```output``` folder performs the tasks above.
