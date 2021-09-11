@@ -59,4 +59,4 @@ Two transformations are crucial when working with neural networks:
 2.	Matrix to tensor
 	1.	Use case: Read an input image with OpenCV, convert it to a tensor and feed it to a neural network.
 
-The project inside ```output``` folder performs the tasks above.
+The project inside ```output``` folder performs the tasks above. It is based on two main functions ```torchTensortoCVMat``` and ```CVMatToTensor```
