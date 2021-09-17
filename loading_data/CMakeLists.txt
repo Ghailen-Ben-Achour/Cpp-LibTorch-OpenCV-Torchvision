@@ -5,7 +5,7 @@ set(CMAKE_INSTALL_PREFIX /usr/local)
 set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
-
+set(LD_LIBRARY_PATH /usr/local/cuda/lib64)
 
 find_package( OpenCV REQUIRED )
 find_package(Torch REQUIRED)
@@ -25,6 +25,7 @@ include_directories( ${OpenCV_INCLUDE_DIRS} )
 add_executable(main src/main.cpp 
   src/dataset.cpp
   include/dataset.h
+  include/network.h
    )
 target_include_directories(main PRIVATE include)
 target_link_libraries( main ${OpenCV_LIBS})
